@@ -2,11 +2,11 @@
 Bot para Discord que transcreve falas importantes durante a sessão de RPG e faz um resumo de anotações sobre a sessão.
 
 ## Comandos
-`!start <language> <top>`
-join my voice channel, **start** recording, listen to messages only from you, store the **top** audios in memory
+`/start <language> <top>`
+**Starts** recording, listens to messages only from you, and stores the **top** audios in memory.
 
-`!stop`
-**stop** recording, transcribe the **top** audios using **language**, then write notes from it in the same chat channel than the command
+`/stop`
+**Stops** recording, transcribes the **top** audios using **language**, and return transcriptions and notes.
 
 ## Chamada API feita para Whisper
 ```bash
